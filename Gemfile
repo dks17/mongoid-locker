@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 gemspec
 
@@ -22,8 +24,8 @@ group :development, :test do
   gem 'pry-byebug', platforms: :mri
 
   gem 'mongoid-danger', '~> 0.1.1'
-  gem 'rspec', '~> 3.8'
-  gem 'rubocop'
-  gem 'rubocop-rspec'
+  gem 'rspec', '~> 3.9'
+  gem 'rubocop', '0.81.0'
+  gem 'rubocop-rspec', '1.38.1'
   gem 'simplecov', require: false
 end
